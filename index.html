@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Natekar Sports &amp; Fitness</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    
+  </head>
+
+  <body>
+      <header class="index-page content">
+      <div class="top-border"></div>
+      <div class="row">
+          <div id="triangle">
+              </div> 
+          <div class="sticky">
+              <div id="triangle">
+              </div> 
+        </div>
+    <!-- Navigation -->
+    <div class="navigation">
+      <div class="navigation-left">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Team</a>
+        <a href="#">Services</a>
+        <a href="#">Clientele</a>
+        <a href="#">Press</a>
+      </div>
+    </div>
+</div>
+
+    <!-- Slider Wrapper -->
+    <div class="css-slider-wrapper">
+      <input type="radio" name="slider" class="slide-radio1" checked id="slider_1">
+      <input type="radio" name="slider" class="slide-radio2" id="slider_2">
+      <input type="radio" name="slider" class="slide-radio3" id="slider_3">
+      
+
+      <!-- Slider Pagination -->
+      <div class="slider-pagination">
+        <label for="slider_1" class="page1"></label>
+        <label for="slider_2" class="page2"></label>
+        <label for="slider_3" class="page3"></label>
+        
+      </div>
+
+      <!-- Slider #1 -->
+      <div class="slider slide-1">
+        <img src="images/slide-img-1.png" alt="">
+        <div class="slider-content">
+          <h2>Sports Education</h2>
+          <h4>Building confidence and fitness in Indian youth for a better future</h4>
+<!--          <button type="button" class="buy-now-btn" name="button">$130</button>-->
+        </div>
+        
+      </div>
+
+      <!-- Slider #2 -->
+      <div class="slider slide-2">
+        <img src="images/slide-img-2.png" alt="">
+        <div class="slider-content">
+          
+          <h2>Sports Advisory </h2>
+            <h4>Striving to bring about a social change in India <br>through sport
+</h4>
+<!--          <button type="button" class="buy-now-btn" name="button">$130</button>-->
+        </div>
+        
+      </div>
+
+      <!-- Slider #3 -->
+      <div class="slider slide-3">
+        <img src="images/slide-img-3.png" alt="">
+        <div class="slider-content">
+          <h2>Sports Advisory </h2>
+            <h4>Creating & Building Value for Sports in India
+</h4>
+<!--          <button type="button" class="buy-now-btn" name="button">$130</button>-->
+        </div>
+        
+      </div>
+    </div>
+    </header>
+    <section class="section-mission content">
+        <div class="row">
+            <img src="images/mission-1.png" class="mission-img-1">
+            <img src="images/mission-2.png" class="mission-img-2">
+            <p class="mission-para para-1">Sport in India today is not only a lifestyle but is also being increasingly used by big corporate houses and companies to further develop and enhance their brand image, brand recall and human resources. While sport in India is on the rise, with the introduction of professional leagues in football, badminton, wrestling and kabaddi to name a few, viewership and following of sports and Indian sportspersons has risen considerably. This in turn has resulted in a spurt in corporate and multinational investment in athletes, sports events, sports development and other sports allied ﬁeld through marketing and CSR budgets.
+          </p>   
+          <p class="mission-para para-2">
+              While investing in sport today is one of the most attractive options for corporates and multinationals, NSF's role would be to structure a long term plan for holistic development of sport - to create a system for churning out world class athletes and also for promoting wellness and ﬁtness avenues to all Indians
+          </p>
+            <h3 class="mission-h3">NSF Mission</h3>
+            </div>
+      </section>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+<!--      STICKY-->
+      <script>
+window.onscroll = function() {myFunction()};
+
+var triangle = document.getElementById("triangle");
+var sticky = triangle.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    triangle.classList.add("sticky")
+  } else {
+    triangle.classList.remove("sticky");
+  }
+}
+</script>
+  </body>
+
+</html>
